@@ -1,0 +1,10 @@
+prefix=/opt/vulkan/VulkanSDK/1.0.57.0/x86_64/bin
+exec_prefix=${prefix}
+libdir=/opt/vulkan/VulkanSDK/1.0.57.0/x86_64/lib
+includedir=/opt/vulkan/VulkanSDK/1.0.57.0/x86_64/include
+
+Name: vulkan
+Description: Vulkan loader and validation layers
+Version: 1.0.57.0
+Libs: -L${libdir} -lvulkan
+Cflags: -I${includedir} 
